@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Personal</title>
+    <meta name="description"
+        content="Portfolio personal de Johandriy Peña. Desarrollador Web en formación aprendiendo HTML y CSS.">
+    <link rel="stylesheet" href="/asssets/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Nunito+Sans:opsz,wght@6..12,450&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/icon" href="/asssets/Icons/trebol.png">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__brand">
+                <h1 class="header__name">JOHANDRIY PEÑA</h1>
+                <p class="header__eslogan">Desarrollador de Software en Formación</p>
+            </div>
+
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#inicio" class="nav__link nav__link--active">Inicio</a></li>
+                    <li class="nav__item"><a href="#sobre-mi" class="nav__link">Sobre mí</a></li>
+                    <li class="nav__item"><a href="#proyectos" class="nav__link">Proyectos</a></li>
+                    <li class="nav__item"><a href="#habilidades" class="nav__link">Habilidades</a></li>
+                    <li class="nav__item"><a href="#contacto" class="nav__link">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero" id="inicio">
+            <div class="hero__container">
+                <h2 class="hero__title">¡Buenas! Soy Johandriy Peña</h2>
+                <p class="hero__subtitle">Desarrollador de Software en Formación</p>
+                <p class="hero__description">
+                    Estoy aprendiendo tanto de manera académica como autodidacta diferentes tecnologías que me ayudarán
+                    a convertirme en un desarrollador y analista competente.
+                </p>
+
+                <div class="hero__actions">
+                    <a href="#proyectos" class="button button--primary">Mis Proyectos</a>
+                    <a href="#contacto" class="button button--secondary">Mi contacto</a>
+                </div>
+
+                <div class="hero__stats">
+                    <div class="stat">
+                        <span class="stat__number">2+</span>
+                        <span class="stat__label">Años de aprendizaje</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat__number">5+</span>
+                        <span class="stat__label">Proyectos</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat__number">5+</span>
+                        <span class="stat__label">Tecnologías</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="sobre-mi">
+            <div class="about__container">
+                <h2 class="section-title">Mi trayecto en el Desarrollo de Software</h2>
+
+                <p class="about__intro">
+                    Soy <strong>estudiante de programación en formación</strong>, actualmente aprendiendo todo tipo de
+                    tecnologías. Quiero crear sitios, aplicaciones y soluciones que sean útiles, accesibles e
+                    increíbles.
+                </p>
+
+                <p class="about__text">
+                    Siempre he tenido la curiosidad de saber si podría tener la capacidad de crear cualquier cosa que me
+                    imagine, y es por eso que decidí comenzar mi camino en el desarrollo web, para después expandirme a
+                    otras áreas del desarrollo de software.
+                </p>
+
+                <blockquote class="quote">
+                    <p class="quote__text">"Tienes que morir unas cuantas veces antes de poder vivir de verdad"</p>
+                    <cite class="quote__author">— Charles Bukowski</cite>
+                </blockquote>
+
+                <div class="values">
+                    <h3 class="section-subtitle">Mis Valores</h3>
+                    <ul class="values__grid">
+                        <li class="values__item">
+                            <span class="values__icon">🎯</span>
+                            <div class="values__content">
+                                <strong>Resiliencia - </strong>
+                                <span>Si no lo comprendo, lo intento de nuevo</span>
+                            </div>
+                        </li>
+                        <li class="values__item">
+                            <span class="values__icon">📚</span>
+                            <div class="values__content">
+                                <strong>Dedicación - </strong>
+                                <span>Hacerlo mal no es una opción</span>
+                            </div>
+                        </li>
+                        <li class="values__item">
+                            <span class="values__icon">🤝</span>
+                            <div class="values__content">
+                                <strong>Respeto - </strong>
+                                <span>Valorando a cada persona y su trabajo</span>
+                            </div>
+                        </li>
+                        <li class="values__item">
+                            <span class="values__icon">💡</span>
+                            <div class="values__content">
+                                <strong>Adaptabilidad - </strong>
+                                <span>Buscar soluciones efectivas y flexibles</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects" id="proyectos">
+            <div class="projects__container">
+                <h2 class="section-title">Proyectos Personales</h2>
+                <p class="projects__description">
+                    Estos evidencian mi progreso y las habilidades que he adquirido hasta ahora. Cada proyecto es un
+                    paso más para lograr el objetivo.
+                </p>
+
+                <div class="projects__grid">
+                    <article class="project">
+                        <h3 class="project__title">Mi Primer Sitio Web</h3>
+                        <p class="project__description">
+                            Mi primer proyecto completo usando HTML y CSS. Una página simple la cual es una copia del
+                            inicio del buscador de Google en donde apliqué conceptos básicos.
+                        </p>
+                        <h4 class="project__subtitle">Lo que aprendí:</h4>
+                        <ul class="project__learnings">
+                            <li>Estructura semántica de HTML</li>
+                            <li>Box Model y layout básico</li>
+                            <li>Estilos CSS fundamentales</li>
+                        </ul>
+                        <div class="project__technologies">
+                            <span class="tag tag--html">HTML5</span>
+                            <span class="tag tag--css">CSS3</span>
+                        </div>
+                        <div class="project__links">
+                            <a href="#" class="project__link">Ver proyecto</a>
+                        </div>
+                    </article>
+
+                    <article class="project project--featured">
+                        <span class="project__badge">Destacado</span>
+                        <h3 class="project__title">Portfolio Personal</h3>
+                        <p class="project__description">
+                            Este mismo portfolio que estás viendo. Mi proyecto más completo donde aplico todo lo
+                            aprendido en maquetación moderna y refuerzo de conocimientos de HTML y CSS.
+                        </p>
+                        <h4 class="project__subtitle">Características:</h4>
+                        <ul class="project__learnings">
+                            <li>HTML semántico y accesible</li>
+                            <li>CSS Grid y Flexbox</li>
+                            <li>Diseño responsivo y variables CSS</li>
+                        </ul>
+                        <div class="project__technologies">
+                            <span class="tag tag--html">HTML5</span>
+                            <span class="tag tag--css">CSS3</span>
+                            <span class="tag tag--bem">BEM</span>
+                        </div>
+                        <div class="project__links">
+                            <a href="#" class="project__link">Ver proyecto</a>
+                            <a href="#" class="project__link">Ver código</a>
+                        </div>
+                    </article>
+
+                    <article class="project">
+                        <h3 class="project__title">Minijuego "Mokepón"</h3>
+                        <p class="project__description">
+                            Este proyecto fue hecho para prácticar JavaScript implementando funcionalidades básicas como
+                            eventos, manipulación del DOM y lógica de juego sencilla, además de reforzar conocimientos
+                            de HTML y CSS aplicando estilos modernos y responsivos.
+                        </p>
+                        <h4 class="project__subtitle">Enfoque:</h4>
+                        <ul class="project__learnings">
+                            <li>Uso de funciones y métodos</li>
+                            <li>Primer contacto con backend</li>
+                            <li>Mecanicas con algoritmos lógicos</li>
+                        </ul>
+                        <div class="project__technologies">
+                            <span class="tag tag--html">HTML5</span>
+                            <span class="tag tag--css">CSS3</span>
+                            <span class="tag tag--js">JavaScript</span>
+                        </div>
+                        <div class="project__links">
+                            <a href="#" class="project__link">Ver proyecto</a>
+                            <a href="#" class="project__link">Ver código</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills" id="habilidades">
+            <div class="skills__container">
+                <h2 class="section-title">Habilidades</h2>
+
+                <div class="skills__grid">
+                    <div class="skills__bars">
+                        <h3 class="skills__subtitle">Tecnologías actuales</h3>
+
+                        <div class="skill">
+                            <div class="skill__header">
+                                <span class="skill__name">HTML5</span>
+                                <span class="skill__percentage">80%</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__progress"
+                                    style="width: 80%; background-color: var(--accent-orange);"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <div class="skill__header">
+                                <span class="skill__name">CSS3</span>
+                                <span class="skill__percentage">70%</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__progress" style="width: 70%; background-color: var(--accent-blue);">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <div class="skill__header">
+                                <span class="skill__name">JavaScript</span>
+                                <span class="skill__percentage">40%</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__progress"
+                                    style="width: 40%; background-color: var(--accent-yellow);"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="learning">
+                        <h3 class="learning__title">Actualmente aprendiendo:</h3>
+                        <ul class="learning__list">
+                            <li class="learning__item">Data Science</li>
+                            <li class="learning__item">JavaScript</li>
+                            <li class="learning__item">Diseño de Interfaces</li>
+                            <li class="learning__item">Accesibilidad Web</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contacto">
+            <div class="contact__container">
+                <h2 class="section-title">¿Te interesó mi trabajo?</h2>
+                <p class="contact__description">
+                    Siempre estoy buscando aprender de otros, es una manera de crecer y mejorar. Si quieres contactarme,
+                    no dudes en enviarme un mensaje.
+                </p>
+
+                <div class="contact__methods">
+                    <a href="mailto:johandriy@gmail.com" class="contact__method">
+                        <img src="/asssets/Icons/gmail.svg" alt="Email Icon" class="contact__icon">
+                        <span>johandriy@gmail.com</span>
+                    </a>
+                    <a href="https://github.com/Johanssonxd" target="_blank" class="contact__method">
+                        <img src="/asssets/Icons/github.svg" alt="GitHub Icon" class="contact__icon">
+                        <span>Johanssonxd</span>
+                    </a>
+                    <a href="https://linkedin.com/in/johandriy-peña" target="_blank" class="contact__method">
+                        <img src="/asssets/Icons/linkedin.png" alt="LinkedIn Icon" class="contact__icon">
+                        <span>LinkedIn</span>
+                    </a>
+                </div>
+
+                <a href="#" class="button button--primary button--large">Descargar CV (PDF)</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <nav class="footer__nav">
+                <a href="#inicio" class="footer__link">Inicio</a>
+                <a href="#sobre-mi" class="footer__link">Sobre mí</a>
+                <a href="#proyectos" class="footer__link">Proyectos</a>
+                <a href="#habilidades" class="footer__link">Habilidades</a>
+            </nav>
+            <p class="footer__copyright">© 2026 Johandriy Peña - Portfolio Personal</p>
+            <p class="footer__credits">Diseñado y desarrollado por Johandriy Peña fruto del aprendizaje y esfuerzo.</p>
+        </div>
+    </footer>
+</body>
+</html>
